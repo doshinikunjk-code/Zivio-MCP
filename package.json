@@ -1,0 +1,28 @@
+{
+  "name": "zivio-mcp-server",
+  "version": "1.0.0",
+  "description": "Zivio Trading Intelligence MCP Server \u2014 Gap scanner, SEC alerts, news sentiment for AI agents",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.22.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "trading",
+    "gap-scanner",
+    "sec-filings",
+    "fintech",
+    "ai-agents"
+  ],
+  "author": "Zivio \u2014 Nikunj Doshi"
+}
